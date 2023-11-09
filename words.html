@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Word Jumble</title>
+        <link rel="stylesheet" href="words.css">
+        <script src="words.js" defer></script>
+    </head>
+
+    <header>
+        <h1>Word Jumble</h1>
+    </header>
+
+    <body>
+        <div id="desc">
+            <h3>Guess the scrambled word before the time runs out!</h3>
+        </div>  
+
+        <div id="game">
+            <label>Wins:</label>
+            <label id="win">0</label>
+            <label>Losses:</label>
+            <label id="lose">0</label><br><br>
+            <label>Time:</label>
+            <label id="time">120</label>
+            <label>s</label><br>
+            <p id="scram"></p><br>
+            <label for="guess">Take a Guess: </label>   
+            <input id="guess"><br><br><br>
+            <p id="result"></p><br><br>
+            <button id="submit">Submit</button>
+            <button id="quit">Quit</button><br>
+            <p id="ask">Would You Like to play Again?</p><br>
+            <button id="yes">Yes</button>
+            <button id="no">No</button>
+        </div>
+
+    </body>
+
+</html>

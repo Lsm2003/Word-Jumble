@@ -1,0 +1,55 @@
+header{
+    color: purple;
+    font-family: 'Bubblegum Sans';
+    font-size: 200%;
+    text-align: center;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: gray;
+    padding-bottom: 0px;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+body {
+    text-align: center;
+    font-size: 150%;
+}
+
+#quit {
+    padding: 15px;
+    font-size: 110%;   
+}
+
+#submit {
+    padding: 15px;
+    font-size: 110%;   
+}
+
+#game {
+    padding-top: 20px;
+    border: 3px solid black;
+    background-color: lightgray;
+}
+
+#yes {
+    padding: 15px;
+    font-size: 110%; 
+}
+
+#no {
+    padding: 15px;
+    font-size: 110%; 
+}
+
+button {
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+}
